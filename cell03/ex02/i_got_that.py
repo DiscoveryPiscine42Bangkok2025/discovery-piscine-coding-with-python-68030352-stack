@@ -1,8 +1,9 @@
-while True:
-    user_input = input("Say something (type 'STOP' to exit): ")
+def main():
+    input("What you gotta say? : ")
 
-    if user_input.upper() == "STOP":
-        print("Stopping the program.")
-        break
+    while True:
+        message = input("I got that! Anything else? : ")
+        if (message == "STOP"):
+            break
 
-    print(f"I got that: {user_input}")
+main()
